@@ -1,0 +1,99 @@
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .footer .top-banner {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer .top-banner p {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .footer .top-banner button {
+    background-color: #ff6600;
+    font-family: outfit;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .footer-section{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://wallpapers.com/images/hd/solid-dark-navy-blue-background-j8pk2e5q997ybbp7.jpg);
+    padding: 10px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ebebeb;
+  }
+  
+  .footer .company-info{
+    margin: 20px 0;
+    width: 20%;
+  }
+  /* .footer .social-media{
+    margin: 20px 0;
+    width: 15%;
+  } */
+  .footer .quick-links{
+    margin: 20px 0;
+    width: 15%;
+  }
+  .footer .recent-posts{
+    margin: 20px 0;
+    width: 25%;
+  }
+  .footer .contact-us {
+    margin: 20px 0;
+    width: 25%;
+  }
+
+  .footer .contact-us input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 20px 10px 0;
+    width: 90%;
+    outline: none;
+    font-family: outfit;
+  }
+
+  
+  .footer .company-info h2 {
+    margin: 10px 0;
+  }
+  
+  .footer .social-media a, .footer .quick-links a, .footer .contact-us a {
+    display: block;
+    color: #ebebeb;
+    text-decoration: none;
+  }
+  
+  .footer .social-media a:hover, .footer .quick-links a:hover, .footer .contact-us a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .footer .footer-bottom a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .footer .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  

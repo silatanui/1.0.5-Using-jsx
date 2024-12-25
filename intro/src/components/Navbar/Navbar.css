@@ -1,0 +1,80 @@
+/* Navbar Styling */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgb(255, 255, 255);
+    color: gray;
+}
+
+/* Logo Section */
+nav .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s;
+}
+
+nav .logo a:hover {
+    color: #007bff;
+}
+
+/* Navbar Links */
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-size: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff6f3c;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6f3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

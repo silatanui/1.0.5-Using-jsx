@@ -1,0 +1,134 @@
+.pricing {
+    padding: 50px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9fbfd;
+    text-align: center;
+  }
+  
+  .pricing-content {
+    max-width: 500px;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-content h5 {
+    color: #5d5dff;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .pricing-content h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .view-plans-btn {
+    padding: 10px 20px;
+    background-color: #ff6f3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .view-plans-btn:hover {
+    background-color: #e65d31;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card {
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pricing-card.featured {
+    background-color: #002147;
+    color: #ffffff;
+  }
+  
+  .card-header h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .price span {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .pricing-card ul li {
+    font-size: 0.9rem;
+    margin: 10px 0;
+  }
+  
+  .pricing-card.featured ul li {
+    color: #cfcfcf;
+  }
+  
+  .get-started-btn {
+    padding: 10px 20px;
+    background-color: #ff6f3c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    font-family: outfit;
+    font-weight: 500;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #e65d31;
+  }
+  
+  .pricing-card.featured .get-started-btn {
+    background-color: #ffffff;
+    color: #002147;
+  }
+  
+  .pricing-card.featured .get-started-btn:hover {
+    background-color: #d1d1d1;
+  }
+  

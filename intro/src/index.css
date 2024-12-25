@@ -1,0 +1,10 @@
+
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+:root {
+  font-family: Outfit, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
